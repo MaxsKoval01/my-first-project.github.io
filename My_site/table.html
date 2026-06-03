@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ми вивчаємо роботу з таблицями</title>
+    <style>
+        body {
+            background-color: #ffa07a; 
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #ffff00;
+            font-size: 32px;
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
+
+        table {
+            border-collapse: separate;
+            border-spacing: 2px;
+            border: 3px double #228b22; 
+            background-color: #ffa07a;
+        }
+
+        th {
+            border: 1px solid #228b22;
+            background-color: #ffb6c1; 
+            padding: 5px 15px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        td {
+            border: 1px solid #228b22;
+            padding: 4px 10px;
+            font-size: 16px;
+            vertical-align: middle;
+        }
+
+        .color-box {
+            width: 120px;
+            height: 22px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Ми вивчаємо роботу з таблицями</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Color</th>
+                <th>Name</th>
+                <th>HEX</th>
+                <th>RGB</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><span class="color-box" style="background-color: #000000;"></span></td>
+                <td>Black</td>
+                <td>#000000</td>
+                <td>(0,0,0)</td>
+            </tr>
+            <tr>
+                <td><span class="color-box" style="background-color: #ff0000;"></span></td>
+                <td>Red</td>
+                <td>#ff0000</td>
+                <td>(255,0,0)</td>
+            </tr>
+            <tr>
+                <td><span class="color-box" style="background-color: #00ff00;"></span></td>
+                <td>Green</td>
+                <td>#00ff00</td>
+                <td>(0,255,0)</td>
+            </tr>
+            <tr>
+                <td><span class="color-box" style="background-color: #0000ff;"></span></td>
+                <td>Blue</td>
+                <td>#0000ff</td>
+                <td>(0,0,255)</td>
+            </tr>
+            <tr>
+                <td><span class="color-box" style="background-color: #ffff00;"></span></td>
+                <td>Yellow</td>
+                <td>#ffff00</td>
+                <td>(255,255,0)</td>
+            </tr>
+            <tr>
+                <td><span class="color-box" style="background-color: #00ffff;"></span></td>
+                <td>Aqua</td>
+                <td>#00ffff</td>
+                <td>(0,255,255)</td>
+            </tr>
+            <tr>
+                <td><span class="color-box" style="background-color: #ff00ff;"></span></td>
+                <td>Fuchsia</td>
+                <td>#ff00ff</td>
+                <td>(255,0,255)</td>
+            </tr>
+            <tr>
+                <td><span class="color-box" style="background-color: #808080;"></span></td>
+                <td>Grey</td>
+                <td>#808080</td>
+                <td>(128,128,128)</td>
+            </tr>
+            <tr>
+                <td><span class="color-box" style="background-color: #808000;"></span></td>
+                <td>Olive</td>
+                <td>#808000</td>
+                <td>(128,128,0)</td>
+            </tr>
+            <tr>
+                <td><span class="color-box" style="background-color: #800080;"></span></td>
+                <td>purple</td>
+                <td>#800080</td>
+                <td>(128,0,128)</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Робота з блоками</title>
+    <style>
+        body {
+            background-color: #1e222b;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+        }
+
+        .top-line {
+            background-color: #ffffff;
+            color: #333333;
+            padding: 10px;
+            margin-bottom: 15px;
+            font-size: 22px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .border-word-1 {
+            border: 2px dotted #ff4757;
+            padding: 2px 5px;
+            color: #2e86de;
+        }
+        .border-word-2 {
+            border: 2px dashed #ffa502;
+            padding: 2px 5px;
+            color: #747d8c;
+        }
+
+        .example-container {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 20px;
+        }
+        .example-box {
+            background-color: #9b59b6;
+            color: #ffffff;
+            border: 1px dashed #ffffff;
+            padding: 5px 10px;
+            font-size: 14px;
+        }
+
+        .first-block {
+            background-color: #a5f3fc;
+            color: #0f172a;
+            width: 300px;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            border: 8px double #6366f1; 
+            margin-bottom: 30px;
+        }
+
+        .outer-wrapper {
+            border-top: 10px solid #ec4899;
+            border-left: 10px solid #ec4899;
+            border-right: 10px dotted #ec4899;
+            border-bottom: 10px dashed #ec4899;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 40px;
+            padding: 30px 20px;
+            width: 550px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .third-block {
+            background-color: #7c3aed;
+            color: #ffffff;
+            padding: 15px;
+            font-size: 14px;
+            height: 80px;
+            box-sizing: border-box;
+            border-top: 8px solid #ff6b6b;
+            border-bottom: 8px solid #ff6b6b;
+        }
+
+        .fourth-block {
+            background-color: #10b981;
+            color: #ffffff;
+            padding: 15px;
+            font-size: 14px;
+            height: 80px;
+            box-sizing: border-box;
+            border: 8px ridge #34d399; 
+        }
+
+        .bottom-white-space {
+            background-color: #ffffff;
+            width: 200px;
+            height: 45px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-line">
+        Ми <span class="border-word-1">вивчаємо роботу</span> з блоками
+    </div>
+
+    <div class="top-line">
+        Ми вивчаємо роботу з <span class="border-word-2">блоками</span>
+    </div>
+
+    <div class="example-container">
+        <div class="example-box">Example</div>
+        <div class="example-box">Example</div>
+        <div class="example-box">Example</div>
+        <div class="example-box">Example</div>
+        <div class="example-box">Example</div>
+        <div class="example-box">Example</div>
+    </div>
+
+    <div class="first-block">
+        я - перший блок
+    </div>
+
+    <div class="outer-wrapper">
+        
+        <div class="third-block">
+            я - третій блок
+        </div>
+
+        <div class="fourth-block">
+            я - четвертий блок
+        </div>
+
+    </div>
+
+    <div class="bottom-white-space"></div>
+
+</body>
+</html>
